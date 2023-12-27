@@ -9,7 +9,7 @@ class WaController extends Controller
     //
     public function envia(){
         //TOKEN DE FACEBOOK
-        $token = "EAAQXjZBBiEiIBO1jCquZCsopujzJP4ftOeIIGGbt7Os6b0xOY6ZAPv9hNE4QWpE71T4zJi4tvw4ZAq4XuAtpHNBQIr5spD3hC53zgXH3TsOfCtQ165AEBfwhnkLDmvpbxgaF0su0wPpkiUwBzcaBgwkVU4lUGFersOJu9LKKs1QYjVygF7rZBC6oiG1Eu8HlPcL3jJ6L5SUXc9pddeJcZD";
+        $token = "EAAM6screhzwBOwVZC7AeZC4KBUdbyzWKhiSZCDVTpfqw6jesBaFgvcDhjBSSldTpFLqnW6l6elH7OR8SAKaQ4fGAFGRPKrrMZAUu57R3h9DOUFJzI1HqZAde7WAnA2yI5V6uk7HbDwTfBzeaOL3h04bXSxIJWm5l9HfevO075GUVQzOo0tZBS9wJIX09GXf2cCUeaHEcCUomeqNkEIRKoZD";
         //NUESTRO TELEFONO
         $telefono = "51901095698";
         //URL A DONDE SE MANDARA EL MENSAJE
