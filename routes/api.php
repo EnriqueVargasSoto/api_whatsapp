@@ -20,3 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/envia', [WaController::class,'envia']);
+
+Route::get('/webhook', [WaController::class, 'webhook']);
+Route::post('/webhook', [WaController::class, 'recibe']);
