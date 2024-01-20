@@ -76,6 +76,6 @@ class WaController extends Controller
         //EXTRAEMOS EL MENSAJE DEL ARRAY
         $mensaje.="Mensaje:".$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['text']['body'];
         //GUARDAMOS EL MENSAJE Y LA RESPUESTA EN EL ARCHIVO text.txt
-        file_put_contents("text.txt", $respuesta['entry'][0]['changes'][0]['value']['messages'][0]);
+        file_put_contents("text.txt", $mensaje);
     }
 }
