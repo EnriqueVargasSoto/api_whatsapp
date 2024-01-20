@@ -74,6 +74,7 @@ class WaController extends Controller
         //EXTRAEMOS EL TELEFONO DEL ARRAY
         $mensaje="Telefono:".$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['from']."\n";
         //EXTRAEMOS EL MENSAJE DEL ARRAY
+        $mensaje.="ID:".$respuesta['entry'][0]['id'];
         $mensaje.="Mensaje:".$respuesta['entry'][0]['changes'][0]['value']['messages'][0]['text']['body'];
         //GUARDAMOS EL MENSAJE Y LA RESPUESTA EN EL ARCHIVO text.txt
         file_put_contents("text.txt", $mensaje);
